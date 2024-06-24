@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Eastpoint Computer\\.nuget\\packages\\": {}
+    "C:\\Users\\Acer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Data Structure and Algorithms\\DSA\\Inlearning\\Arrays\\Arrays.csproj",
+      "projectUniqueName": "C:\\Users\\Acer\\Documents\\Projects\\Data Structures and Algorithms\\DSA\\Mylearning\\Arrays\\Arrays.csproj",
       "projectName": "Arrays",
-      "projectPath": "E:\\Data Structure and Algorithms\\DSA\\Inlearning\\Arrays\\Arrays.csproj",
-      "packagesPath": "C:\\Users\\Eastpoint Computer\\.nuget\\packages\\",
-      "outputPath": "E:\\Data Structure and Algorithms\\DSA\\Inlearning\\Arrays\\obj\\",
+      "projectPath": "C:\\Users\\Acer\\Documents\\Projects\\Data Structures and Algorithms\\DSA\\Mylearning\\Arrays\\Arrays.csproj",
+      "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Acer\\Documents\\Projects\\Data Structures and Algorithms\\DSA\\Mylearning\\Arrays\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Eastpoint Computer\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -64,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
