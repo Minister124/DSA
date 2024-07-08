@@ -4,13 +4,20 @@ namespace  Validation_Algorithm
 {
     class Program
     {
-        static bool IsUppercase(string str)
+        static bool IsAnyUppercase(string str)
         {
+            return str.Any(char.IsUpper);
+        }
+
+        static bool IsAllUppercase(string str){
             return str.All(char.IsUpper);
         }
+
+
         static void Main(string[] args)
         {
-            WriteLine(IsUppercase("HELLO"));
+            WriteLine(IsAllUppercase("HeLLO"));
+            WriteLine(IsAnyUppercase("Hi!!"));
         }
     }
 }
