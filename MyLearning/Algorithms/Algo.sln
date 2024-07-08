@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maximum", "Maximum\Maximum.csproj", "{DA828860-CC9B-446C-9649-5DFC6D112503}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validation Algorithm", "Validation Algorithm\Validation Algorithm.csproj", "{99465610-3432-4BC1-AA95-A1BCBB64EEAB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{DA828860-CC9B-446C-9649-5DFC6D112503}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA828860-CC9B-446C-9649-5DFC6D112503}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA828860-CC9B-446C-9649-5DFC6D112503}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99465610-3432-4BC1-AA95-A1BCBB64EEAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99465610-3432-4BC1-AA95-A1BCBB64EEAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99465610-3432-4BC1-AA95-A1BCBB64EEAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99465610-3432-4BC1-AA95-A1BCBB64EEAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
