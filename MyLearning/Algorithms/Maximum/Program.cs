@@ -21,14 +21,26 @@ namespace Maximum
             return c;
         }
 
+        static int EfficientMaximum(int a, int b, int c){
+            int max = a;
+            if( b> max)
+            {
+                max = b;
+            }
+            if( c> max)
+            {
+                max = c;
+            }
+            return max;
+        }
+
         static void Main(string[] args){
             var stopWatch = Stopwatch.StartNew();
-            WriteLine(findMaximum(2,3,4));
-            WriteLine(findMaximum(45,58,23));
-            WriteLine(findMaximum(46,158,200));
+            WriteLine(EfficientMaximum(2,3,4));
+            WriteLine(EfficientMaximum(45,58,23));
+            WriteLine(EfficientMaximum(46,158,200));
             stopWatch.Stop();
             WriteLine($"Execution Time: {stopWatch.ElapsedMilliseconds}");
         }
     }
-    
 }
