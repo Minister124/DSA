@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maximum", "Maximum\Maximum.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validation Algorithm", "Validation Algorithm\Validation Algorithm.csproj", "{99465610-3432-4BC1-AA95-A1BCBB64EEAB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Normalize Strings", "Normalize Strings\Normalize Strings.csproj", "{05F5CD33-D7FB-4018-910C-5A9EEF418AD1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{99465610-3432-4BC1-AA95-A1BCBB64EEAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99465610-3432-4BC1-AA95-A1BCBB64EEAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99465610-3432-4BC1-AA95-A1BCBB64EEAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05F5CD33-D7FB-4018-910C-5A9EEF418AD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05F5CD33-D7FB-4018-910C-5A9EEF418AD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05F5CD33-D7FB-4018-910C-5A9EEF418AD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05F5CD33-D7FB-4018-910C-5A9EEF418AD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
