@@ -13,11 +13,20 @@ namespace  Validation_Algorithm
             return str.All(char.IsUpper);
         }
 
+        static bool IsAnyLowercase(string str){
+            return str.Any(char.IsLower);
+        }
+
+        static bool IsAllLowercase(string str){
+            return str.All(char.IsLower);
+        }
 
         static void Main(string[] args)
         {
             WriteLine(IsAllUppercase("HeLLO"));
             WriteLine(IsAnyUppercase("Hi!!"));
+            WriteLine(IsAllLowercase("hello"));
+            WriteLine(IsAnyLowercase("HELLo"));
         }
     }
 }
