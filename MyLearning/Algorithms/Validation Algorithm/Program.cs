@@ -21,6 +21,11 @@ namespace  Validation_Algorithm
             return str.All(char.IsLower);
         }
 
+        static bool IsPasswordFormat(string str)
+        {
+            return str.Any(char.IsUpper) && str.Any(char.IsLower) && str.Any(char.IsDigit);
+        }
+
         static void Main(string[] args)
         {
             WriteLine(IsAllUppercase("HeLLO"));
