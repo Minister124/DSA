@@ -32,6 +32,7 @@ namespace  Validation_Algorithm
             WriteLine(IsAnyUppercase("Hi!!"));
             WriteLine(IsAllLowercase("hello"));
             WriteLine(IsAnyLowercase("HELLo"));
+            WriteLine(IsPasswordFormat("Hello123"));
         }
     }
 }
