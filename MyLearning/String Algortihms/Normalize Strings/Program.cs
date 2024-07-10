@@ -6,13 +6,12 @@ class Program
 {
 
     static string NormalizeString(string input){
-        string lowerInput = input.ToLower();
-        return lowerInput;
+        return input.ToLower().Trim().Replace("@","");
     }
     static void Main(string[] args)
     {
         Stopwatch sw = Stopwatch.StartNew();
-        WriteLine(NormalizeString("Hello"));
+        WriteLine(NormalizeString(" Hello @ World "));
         sw.Stop();
         WriteLine($"Execution Time: {sw.ElapsedMilliseconds} ms");
     }
