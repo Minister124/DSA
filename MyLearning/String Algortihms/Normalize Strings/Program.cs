@@ -4,7 +4,6 @@ namespace Normalize_Strings;
 
 class Program
 {
-
     static string NormalizeString(string input){
         return input.ToLower().Trim().Replace("@","");
     }
