@@ -21,9 +21,20 @@ namespace Parse_and_Search_Strings
             }    
         }
 
+        static bool IsAtEvenIndex(string s, char c){
+            for (int i = 0; i < s.Length; i++)
+            {
+                if(s[i] == c && i % 2 == 0){
+                    return true;
+                }
+            }
+            return false;
+        }
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!".ToLower().Contains("ll"));
+            //ParseString("Mugi Jatha");
+            Console.WriteLine(IsAtEvenIndex("Mugi Jatha", 'g'));
         }
     }
 }
