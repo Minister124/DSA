@@ -22,6 +22,9 @@ namespace Parse_and_Search_Strings
         }
 
         static bool IsAtEvenIndex(string s, char c){
+            if(string.IsNullOrEmpty(s)){
+                return false;
+            }
             for (int i = 0; i < s.Length; i++)
             {
                 if(s[i] == c && i % 2 == 0){
@@ -35,6 +38,7 @@ namespace Parse_and_Search_Strings
         {
             //ParseString("Mugi Jatha");
             Console.WriteLine(IsAtEvenIndex("Mugi Jatha", 'g'));
+            Console.WriteLine(IsAtEvenIndex("muji jatha", 'j'));
         }
     }
 }
