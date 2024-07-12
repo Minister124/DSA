@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Normalize Strings", "Normal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parse and Search Strings", "Parse and Search Strings\Parse and Search Strings.csproj", "{FD12175F-BC5E-4D54-B8E3-FA743DDA6A7E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm-Driven String", "Algorithm-Driven String\Algorithm-Driven String.csproj", "{902B7F3D-46B0-470C-8C00-4A00C7AECFF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{FD12175F-BC5E-4D54-B8E3-FA743DDA6A7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD12175F-BC5E-4D54-B8E3-FA743DDA6A7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD12175F-BC5E-4D54-B8E3-FA743DDA6A7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{902B7F3D-46B0-470C-8C00-4A00C7AECFF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{902B7F3D-46B0-470C-8C00-4A00C7AECFF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{902B7F3D-46B0-470C-8C00-4A00C7AECFF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{902B7F3D-46B0-470C-8C00-4A00C7AECFF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
