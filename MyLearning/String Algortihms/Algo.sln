@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm-Driven String", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseSentenceUnitTest", "ReverseSentenceUnitTest\ReverseSentenceUnitTest.csproj", "{11931F71-21E2-48D9-B9AF-18209ECA887A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseSentence", "ReverseSentence\ReverseSentence.csproj", "{1D4D5061-3A9D-4968-8B92-EC80F52DBE05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{11931F71-21E2-48D9-B9AF-18209ECA887A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11931F71-21E2-48D9-B9AF-18209ECA887A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11931F71-21E2-48D9-B9AF-18209ECA887A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D4D5061-3A9D-4968-8B92-EC80F52DBE05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D4D5061-3A9D-4968-8B92-EC80F52DBE05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D4D5061-3A9D-4968-8B92-EC80F52DBE05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D4D5061-3A9D-4968-8B92-EC80F52DBE05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
