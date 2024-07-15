@@ -18,4 +18,12 @@ public class ReverseStringSentence
         }
         return reversedSentence.Trim();
     }
+
+    //Another way to reverse a sentence
+    /*public static string ReverseSentence1(string sentence){
+        string[] words = sentence.Split(' ');
+        string[] reversed = words.Select(ReverseStringWord).ToArray();
+        string reversedSentence = string.Join(" ", reversed);
+        return reversedSentence;
+    }*/
 }
