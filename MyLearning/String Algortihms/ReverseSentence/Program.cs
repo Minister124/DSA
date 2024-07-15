@@ -1,9 +1,11 @@
 ﻿using System;
+using ReverseStringSentenceLib;
 
 namespace ReverseSentence;
 
 class Program{
     static void Main(string[] args){
-        WriteLine("Hello ,World!");
+        WriteLine(ReverseStringSentence.ReverseStringWord("Hello"));
+        WriteLine(ReverseStringSentence.ReverseSentence("World, I am back"));
     }
 }

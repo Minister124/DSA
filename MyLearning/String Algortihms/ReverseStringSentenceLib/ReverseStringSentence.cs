@@ -8,4 +8,14 @@ public class ReverseStringSentence
         string reversed = new string(charArray);
         return reversed;
     }
+
+    //return string with each word reversed
+    public static string ReverseSentence(string sentence){
+        string[] words = sentence.Split(' ');
+        string reversedSentence = "";
+        foreach (string word in words){
+            reversedSentence += ReverseStringWord(word) + " ";
+        }
+        return reversedSentence.Trim();
+    }
 }

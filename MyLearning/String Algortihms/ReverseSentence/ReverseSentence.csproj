@@ -8,7 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Using Include="System.Console" Static="true"/>  
+    <Using Include="System.Console" Static="true" />  
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ReverseStringSentenceLib\ReverseStringSentenceLib.csproj" />
   </ItemGroup>
 
 </Project>
