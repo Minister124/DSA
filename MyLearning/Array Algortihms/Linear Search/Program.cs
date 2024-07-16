@@ -14,8 +14,16 @@ class Program{
     }
     static void Main(string[] args){
         int[] arry = {1, 2, 5, 9, 7, 8};
-        int a = 2;
+        //int a = 2;
 
-        Console.WriteLine(LinearSearchArray(arry, a));
-    }
+        //Console.WriteLine(LinearSearchArray(arry, a));
+
+        int item = Array.Find(arry, item => item == 5);
+        int sheesh = Array.Find(arry, item => item == 3);
+        Console.WriteLine(item);
+        WriteLine(sheesh);
+
+        int[] items = Array.FindAll(arry, items => items >= 5);
+        Array.ForEach(items, WriteLine);
+    }  
 }
