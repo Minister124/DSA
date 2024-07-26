@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary Search", "Binary Sea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AggregateAndFilterArrays", "AggregateAndFilterArrays\AggregateAndFilterArrays.csproj", "{8F7C218C-F8B6-4DF0-BA5A-36BC54037265}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseArray", "ReverseArray\ReverseArray.csproj", "{5D4B90A2-252F-444C-8AD3-CC959BE4FF52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{8F7C218C-F8B6-4DF0-BA5A-36BC54037265}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F7C218C-F8B6-4DF0-BA5A-36BC54037265}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F7C218C-F8B6-4DF0-BA5A-36BC54037265}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D4B90A2-252F-444C-8AD3-CC959BE4FF52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D4B90A2-252F-444C-8AD3-CC959BE4FF52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D4B90A2-252F-444C-8AD3-CC959BE4FF52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D4B90A2-252F-444C-8AD3-CC959BE4FF52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
