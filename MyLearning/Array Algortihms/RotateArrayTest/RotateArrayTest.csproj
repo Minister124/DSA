@@ -22,4 +22,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RotateArrayByOneLib\RotateArrayByOneLib.csproj" />
+    <Using Include="System.Console" Static="true"/>
+  </ItemGroup>
+
 </Project>
